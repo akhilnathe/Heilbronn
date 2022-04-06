@@ -1,0 +1,5 @@
+pandas
+fastapi
+pycaret==2.3.6
+uvicorn
+gunicorn==19.9.0
