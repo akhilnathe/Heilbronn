@@ -8,7 +8,7 @@ import uvicorn
 app = FastAPI()
 
 # Load trained Pipeline
-model = load_model('xg_api')
+model = load_model('app')
 
 # Define predict function
 @app.post('/predict')
